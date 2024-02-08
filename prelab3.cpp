@@ -6,8 +6,10 @@ using namespace std;
 string switchDayName(int num);
 
 int main(){
-    cout << switchDayName(9) << endl;
-    cout << switchDayName(2) << endl;
+    string inv = switchDayName(9);
+    string mon = switchDayName(2);
+    cout << inv << endl;
+    cout << mon << endl;
     return 0;
 }
 
